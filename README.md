@@ -5,7 +5,7 @@
 A Home Assistant Lovelace card for Pichler energy reclaiming home ventilation systems.
 Fork of [erhv-lovelace](https://github.com/bolkedebruin/erhv-lovelace) with flow rate in m³/h and fan levels 1-3.
 
-![Screenshot - main](https://raw.githubusercontent.com/bernib5/pichler-erhv-card/main/docs/screenshot-1.png)
+![Screenshot - main](https://raw.githubusercontent.com/bernib5/pichlerluft-erhv-card/main/docs/screenshot-1.png)
 
 # Installation
 
