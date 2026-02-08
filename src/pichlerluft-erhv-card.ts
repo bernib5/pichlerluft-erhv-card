@@ -13,13 +13,13 @@ const validEntityId = /^(\w+)\.(\w+)$/;
 const isValidEntityId = (entityId: string) =>
     validEntityId.test(entityId);
 
-@customElement("erhv-card")
+@customElement("pichlerluft-erhv-card")
 export class ERHVCard extends LitElement implements LovelaceCard {
     @property({attribute: false}) public hass?: HomeAssistant;
     @state() private _config?: ERHVCardConfig;
 
     static getConfigElement()  {
-        return document.createElement("erhv-card-editor");
+        return document.createElement("pichlerluft-erhv-card-editor");
     }
 
     static getStubConfig(

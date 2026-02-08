@@ -13,13 +13,13 @@ Fork of [erhv-lovelace](https://github.com/bolkedebruin/erhv-lovelace) with flow
 
 * Add this repo to your HACS custom repositories.
 * Install the card from the HACS store.
-* Add a card with `type: 'custom:erhv-card'`.
+* Add a card with `type: 'custom:pichlerluft-erhv-card'`.
 * Configure the card with the entity of your Pichler ventilation system and its sensors.
 
 Example configuration:
 
 ```yaml
-type: custom:erhv-card
+type: custom:pichlerluft-erhv-card
 name: Pichler
 entity: climate.pichler_climate
 climate_entity: climate.pichler_climate

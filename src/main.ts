@@ -1,4 +1,4 @@
-import './erhv-card';
+import './pichlerluft-erhv-card';
 import './editor';
 
 declare global {
@@ -10,7 +10,7 @@ declare global {
 // Next we add our card to the list of custom cards for the card picker
 window.customCards = window.customCards || []; // Create the list if it doesn't exist. Careful not to overwrite it
 window.customCards.push({
-    type: "erhv-card",
+    type: "pichlerluft-erhv-card",
     name: "Energy Reclaiming Home Ventilation Card",
     description: "Card for energy reclaiming home ventilation aggregates.",
 });
