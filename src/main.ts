@@ -11,7 +11,7 @@ declare global {
 window.customCards = window.customCards || []; // Create the list if it doesn't exist. Careful not to overwrite it
 window.customCards.push({
     type: "pichlerluft-erhv-card",
-    name: "Energy Reclaiming Home Ventilation Card",
-    description: "Card for energy reclaiming home ventilation aggregates.",
+    name: "PichlerLuft Energy Reclaiming Home Ventilation Card",
+    description: "PichlerLuft card for energy reclaiming home ventilation systems.",
 });
 
