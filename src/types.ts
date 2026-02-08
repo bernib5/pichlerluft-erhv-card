@@ -6,11 +6,11 @@ export interface ERHVCardConfig extends LovelaceCardConfig {
     name: string;
     icon: string;
     intake_temperature: string;
-    intake_fan_speed_rpm: string;
-    intake_fan_speed_percentage: string;
+    intake_flow_rate: string;
+    intake_fan_level: string;
     exhaust_temperature: string;
-    exhaust_fan_speed_rpm: string;
-    exhaust_fan_speed_percentage: string;
+    exhaust_flow_rate: string;
+    exhaust_fan_level: string;
     supply_temperature: string;
     return_temperature: string;
     filter_elapsed_time: string;

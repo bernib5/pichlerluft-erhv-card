@@ -11,14 +11,14 @@ export const ERHVSchema = [
                 label: "Intake (outside) temperature",
             },
             {
-                name: "intake_fan_speed_rpm",
+                name: "intake_flow_rate",
                 selector: {entity: {domain: ["sensor"]}},
-                label: "Intake fan speed rpm",
+                label: "Intake flow rate (m³/h)",
             },
             {
-                name: "intake_fan_speed_percentage",
+                name: "intake_fan_level",
                 selector: {entity: {domain: ["sensor"]}},
-                label: "Intake fan speed %",
+                label: "Intake fan level (1-3)",
             },
         ],
     }, {
@@ -31,14 +31,14 @@ export const ERHVSchema = [
                 label: "Exhaust temperature sensor",
             },
             {
-                name: "exhaust_fan_speed_rpm",
+                name: "exhaust_flow_rate",
                 selector: {entity: {domain: ["sensor"]}},
-                label: "Exhaust fan speed rpm",
+                label: "Exhaust flow rate (m³/h)",
             },
             {
-                name: "exhaust_fan_speed_percentage",
+                name: "exhaust_fan_level",
                 selector: {entity: {domain: ["sensor"]}},
-                label: "Exhaust fan speed %",
+                label: "Exhaust fan level (1-3)",
             },
         ],
     }, {

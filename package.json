@@ -1,7 +1,7 @@
 {
-  "name": "erhv-card",
-  "version": "1.0.14",
-  "description": "A homeassistant heat exchange card - for, for example, the ComfoAir, WHR, Swegon Casa ",
+  "name": "pichler-erhv-card",
+  "version": "1.0.0",
+  "description": "A Home Assistant Lovelace card for Pichler ventilation systems (ERHV) - flow rate in m³/h, fan levels 1-3",
   "main": "dist/erhv-card.js",
   "source": "src/main.ts",
   "type": "module",
