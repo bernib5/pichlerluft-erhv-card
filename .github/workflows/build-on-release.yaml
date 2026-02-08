@@ -25,4 +25,4 @@ jobs:
       - name: Upload release asset
         uses: svenstaro/upload-release-action@v2
         with:
-          file: dist/erhv-card.js
+          file: dist/PichlerLuft-ERHV-card.js

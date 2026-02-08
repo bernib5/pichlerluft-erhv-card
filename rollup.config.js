@@ -8,7 +8,7 @@ const dev = process.env.ROLLUP_WATCH;
 export default {
   input: "src/main.ts",
   output: {
-    file: "dist/erhv-card.js",
+    file: "dist/PichlerLuft-ERHV-card.js",
     format: "es",
   },
   plugins: [
